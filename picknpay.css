@@ -1,0 +1,53 @@
+html,body{
+    background-color: white;
+    height: 100%;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.banner{
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    border-top: 1px double black;
+    border-bottom: 1px double black;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.banner img{
+    height: 10vh;
+}
+.box1, .box2, .box3{
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+}
+.box1 img{
+    width: 100%;
+}
+
+.box1 ,.box2 ,.box3 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.box2 img{
+    width: 100%;
+}
+.box3 {
+    display: flex;
+}
+.box3 img{
+    width: 50%;
+}
+#box-h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}

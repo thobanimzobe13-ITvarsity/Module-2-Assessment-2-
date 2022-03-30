@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+header div a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+header .logo img{
+    height: 2vh;
+}
+header select{
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+header .btn button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: red;
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+header .btn button:hover{
+    cursor: pointer;
+}
+
+/*Banner*/
+.banner{
+    width: 100%;
+    margin: 2px auto;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+.advert{
+    text-align: center;
+}
+.advert img{
+    width: 50%;
+}
+.advert h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.advert p{
+    font-weight: bold;
+}
+.advert span{
+    color: red;
+    font-weight: bolder;
+    
+}
+.wine{
+    text-align: center;
+}
+.wine h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+
+@media screen and (max-width:600px) {
+    header{
+        display: block;
+        text-align: center;
+    }
+    header .logo,  select, .btn , .div{
+        margin-top: 5px;
+    }
+    
+}

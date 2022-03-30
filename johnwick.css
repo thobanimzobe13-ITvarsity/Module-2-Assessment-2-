@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    color: white;
+    text-transform: capitalize;
+}
+html,body{
+    height: 100%;
+}
+main{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    padding: 0 5px;
+}
+
+.mylogo img{
+    height: 60vh;
+    margin: auto;
+}
+.text{
+    padding: 0 10px;
+}
+main h1, h2, h4{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+main ul{
+    list-style-type:none ;
+}
+main h4{
+    font-weight: bold;
+}
+@media screen and (max-width:900px){
+    main{
+        display: block;
+        text-align: center;
+    }
+    .mylogo img{
+        height: 30vh;
+        margin: auto;
+    }
+    .text{
+        padding: 0 10px;
+        text-align: left;
+    }
+}

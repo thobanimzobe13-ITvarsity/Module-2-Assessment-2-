@@ -1,0 +1,64 @@
+div{
+    margin-left: 20px;
+}
+.wrapper{
+    width: 90;
+    margin: 10px auto;
+    padding: 5px;
+}
+.banner{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(201, 212, 212);
+    height: 200px;
+}
+.banner div{
+    margin-top: 20px;
+}
+.banner div h1{
+    text-transform: uppercase;
+}
+.mens {
+    width: 80%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.mens .image1 img{
+    height: 40vh;
+}
+.mens .image1 h4{
+    text-transform: capitalize;
+    text-align: center;
+}
+#b{
+    text-align: center;
+}
+span{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: red;
+    text-decoration: underline;
+}
+.ladies {
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.ladies img{
+    height: 45vh;
+    width: 90%;
+}
+.ladies span{
+    color: rgb(115, 15, 228);
+}
+
+

@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    background-color: rgb(226, 226, 226);
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* images*/
+header img{
+    height: 5vh;
+}
+
+nav{
+    margin: auto;
+    width: 90%;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    font-weight: 800;
+    margin: 0;
+    padding: 10px;
+ 
+}
+nav ul li{
+    display: inline;
+    padding:0 20px ;
+    text-transform: capitalize;
+}
+nav ul li:hover{
+    border-bottom: 1px solid black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*main banner*/
+.main{
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    min-height: 500px;
+    background-image: url('images/R.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.main h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+.main span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+#sub-banner{
+    text-align: center;
+    letter-spacing: .8em;
+    animation: change 8s infinite ease-in-out;
+}
+#sub-banner h1{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+/*main content*/
+.main-box{
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    min-height: 100px;
+    
+}
+.main-box  {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main-box div img{
+    height: 30vh;
+    
+}
+.main-box div h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sub-content{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .8em;
+    animation: change 8s infinite ease-in-out;
+}
+.movie-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+.movie-box img{
+    height: 50vh;
+}
+.movie-box  h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    header{
+        text-align: center;
+        display: block;
+    }
+    nav ul{
+        margin-top: 5px;
+        background-color: rgb(226, 226, 226);
+        color: black;
+    }
+    nav ul li{
+        display: block;
+        border-bottom: 1px solid black;
+    }
+    
+    .main{
+        min-height: 200px;
+        
+    }
+    .main h1{
+        display: none;
+    }
+    #sub-banner h1{
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: medium;
+    }
+    body{
+        background-color: rgb(226, 226, 226);
+
+    }
+}
+
+@keyframes change{
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: rgb(255, 0, 98);
+    }
+    75%{
+        color: rgb(43, 255, 0);
+    }
+    100%{
+        color: rgb(229, 255, 0);
+    }
+}

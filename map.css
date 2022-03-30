@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: rgb(30, 30, 78);
+    text-transform: uppercase;
+}
+.my-img{
+    margin: auto;
+    width: 90%;
+}
+.my-img img{
+    width: 100%;
+    margin: auto;
+}
